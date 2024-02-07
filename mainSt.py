@@ -9,7 +9,7 @@ import streamlit as st
 #         """)
 name = st.text_input("Enter your name : ")
 fname = st.text_input("Enter your father name : ")
-adr = st.text_area("Enter your Text : ")
+adr = st.text_area("Enter your Address : ")
 classdata = st.selectbox("Enter Your Class : ", (1,2,3,4,5,6))
 
 button = st.button("Done")
